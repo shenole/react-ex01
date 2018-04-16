@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
+import Person from './Person/Person';
 import {Button} from 'react-bootstrap';
 import {Table} from 'react-bootstrap';
-// eslint-disable-next-line
 
 class App extends Component {
   render() {
@@ -10,6 +10,7 @@ class App extends Component {
       <div className="App">
         <h1>Test Table</h1>
         <h3>This is just practice to get used to JSX</h3>
+        <Person />
         <Table responsive bordered>
           <tr>
             <th>ID</th>
